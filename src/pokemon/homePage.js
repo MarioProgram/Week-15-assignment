@@ -35,7 +35,7 @@ export default function HomePage() {
 
    return (
     <>
-    <TeamSave teamName={teamName}/> 
+    <TeamSave teamName={teamName} /> 
     <div className='container m-0'>
          
         <div className='row spacing'>

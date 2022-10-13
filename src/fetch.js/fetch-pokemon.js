@@ -13,9 +13,9 @@ export async function fetchPokemon(pokemon) {
    return fetch(`${mainUrl}/${query.pokemon}/${pokemon}`)
 }
 export const currentTeamInfo = [
-    {teamName: 'test'},   
+    {teamName: null},   
     {key: 1,
-    name: 'test',
+    name: '',
     id: 35},
     {key: 2,
     name: '',
